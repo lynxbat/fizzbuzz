@@ -16,6 +16,8 @@ func main() {
 		}
 		if len(a) > 0 {
 			fmt.Printf("%s\n", strings.Join(a, ""))
+		} else {
+			fmt.Printf("%d\n", x)
 		}
 	}
 }
